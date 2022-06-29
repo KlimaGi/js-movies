@@ -1,0 +1,132 @@
+[
+  {
+    "title": "Doctor Strange in the Multiverse of Madness",
+    "review": { "count": 255000, "ranking": 7.1 },
+    "releaseYear": 2022,
+    "summary": "Doctor Strange teams up with a mysterious teenage girl from his dreams who can travel across multiverses, to battle multiple threats, including other-universe versions of himself, which thre...",
+    "genres": ["action", "adventure", "fantasy"],
+    "director": ["Sam Raimi"],
+    "cast": [
+      "Benedict Cumberbatch",
+      "Elizabeth Olsen",
+      "Chiwetel Ejiofor",
+      "Benedict Wong"
+    ],
+    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/9Gtg2DzBhmYamXBS1hKAhiwbBKS.jpg"
+  },
+  {
+    "title": "Obi-Wan Kenobi",
+    "review": { "count": 109000, "ranking": 7.2 },
+    "releaseYear": 2022,
+    "summary": "Jedi Master Obi-Wan Kenobi has to save young Leia after she is kidnapped, all the while being pursued by Imperial Inquisitors and his former Padawan, now known as Darth Vader.",
+    "genres": ["action", "adventure", "sci-fi"],
+    "director": ["Deborah Chow"],
+    "cast": [
+      "Ewan McGregor",
+      "Moses Ingram",
+      "Vivien Lyra Blair",
+      "Hayden Christensen"
+    ],
+    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/qJRB789ceLryrLvOKrZqLKr2CGf.jpg"
+  },
+  {
+    "title": "Stranger Things",
+    "review": { "count": 11000000, "ranking": 8.7 },
+    "releaseYear": 2022,
+    "summary": "When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.",
+    "genres": ["drama", "fantasy", "horror"],
+    "director": ["Matt Duffer", "Ross Duffer"],
+    "cast": [
+      "Millie Bobby Brown",
+      "Finn Wolfhard",
+      "Winona Ryder",
+      "David Harbour"
+    ],
+    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/uKYUR8GPkKRCksczYDJb3pwZauo.jpg"
+  },
+  {
+    "title": "The Black Phone",
+    "review": { "count": 12000, "ranking": 7.4 },
+    "releaseYear": 2021,
+    "summary": "After being abducted by a child killer and locked in a soundproof basement, a 13-year-old boy starts receiving calls on a disconnected phone from the killer's previous victims.",
+    "genres": ["horror"],
+    "director": ["Scott Derrickson"],
+    "cast": [
+      "Mason Thames",
+      "Madeleine McGraw",
+      "Ethan Hawke",
+      "Jeremy Davies"
+    ],
+    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/bxHZpV02OOu9vq3sb3MsOudEnYc.jpg"
+  },
+  {
+    "title": "The Northman",
+    "review": { "count": 131000, "ranking": 7.2 },
+    "releaseYear": 2022,
+    "summary": "From visionary director Robert Eggers comes The Northman, an action-filled epic that follows a young Viking prince on his quest to avenge his father's murder.",
+    "genres": ["action", "adventure", "drama"],
+    "director": ["Robert Eggers"],
+    "cast": [
+      "Alexander Skarsgård",
+      "Nicole Kidman",
+      "Claes Bang",
+      "Ethan Hawke"
+    ],
+    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/zhLKlUaF1SEpO58ppHIAyENkwgw.jpg"
+  },
+  {
+    "title": "Top Gun: Maverick",
+    "review": { "count": 196000, "ranking": 8.6 },
+    "releaseYear": 2022,
+    "summary": "After more than thirty years of service as one of the Navy's top aviators, Pete Mitchell is where he belongs, pushing the envelope as a courageous test pilot and dodging the advancement in r...",
+    "genres": ["action", "drama"],
+    "director": ["Joseph Kosinski"],
+    "cast": ["Tom Cruise", "Jennifer Connelly", "Miles Teller", "Val Kilmer"],
+    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/jeGvNOVMs5QIU1VaoGvnd3gSv0G.jpg"
+  },
+  {
+    "title": "Spider-Man: No Way Home",
+    "review": { "count": 664000, "ranking": 8.3 },
+    "releaseYear": 2021,
+    "summary": "With Spider-Man's identity now revealed, Peter asks Doctor Strange for help. When a spell goes wrong, dangerous foes from other worlds start to appear, forcing Peter to discover what it trul...",
+    "genres": ["action", "adventure", "fantasy"],
+    "director": ["Jon Watts"],
+    "cast": ["Tom Holland", "Zendaya", "Benedict Cumberbatch", "Jacob Batalon"],
+    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/1g0dhYtq4irTY1GPXvft6k4YLjm.jpg"
+  },
+  {
+    "title": "Hustle",
+    "review": { "count": 65000, "ranking": 7.4 },
+    "releaseYear": 2022,
+    "summary": "A basketball scout discovers a phenomenal street ball player while in Spain and sees the prospect as his opportunity to get back into the NBA.",
+    "genres": ["comedy", "drama", "sport"],
+    "director": ["Jeremiah Zagar"],
+    "cast": [
+      "Adam Sandler",
+      "Queen Latifah",
+      "Juancho Hernangomez",
+      "Ben Foster"
+    ],
+    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/fVf4YHHkRfo1uuljpWBViEGmaUQ.jpg"
+  },
+  {
+    "title": "The Godfather",
+    "review": { "count": 1800000, "ranking": 9.2 },
+    "releaseYear": 1972,
+    "summary": "The aging patriarch of an organized crime dynasty in postwar New York City transfers control of his clandestine empire to his reluctant youngest son.",
+    "genres": ["crime", "drama"],
+    "director": ["Francis Ford Coppola"],
+    "cast": ["Marlon Brando", "Al Pacino", "James Caan", "Diane Keaton"],
+    "img": "https://www.themoviedb.org/t/p/w600_and_h900_bestv2/eEslKSwcqmiNS6va24Pbxf2UKmJ.jpg"
+  },
+  {
+    "title": "The Shawshank Redemption",
+    "review": { "count": 2600000, "ranking": 9.3 },
+    "releaseYear": 1994,
+    "summary": "Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.",
+    "genres": ["drama"],
+    "director": ["Frank Darabont"],
+    "cast": ["Tim Robbins", "Morgan Freeman", "Bob Gunton", "William Sadler"],
+    "img": "https://www.themoviedb.org/t/p/original/hBcY0fE9pfXzvVaY4GKarweriG2.jpg"
+  }
+]

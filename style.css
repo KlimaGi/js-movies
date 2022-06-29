@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Zilla+Slab:wght@400;600&display=swap");
+
+:root {
+  --color-dark: #1562a1;
+  --color-blue: #4682b4;
+  --color-light: #7ea1be;
+  --color-lighter: rgba(23, 46, 83, 0.37);
+  --color-gold: #ddc120;
+  --color-white: #dde3e8;
+}
+* {
+  box-sizing: border-box;
+  font-family: "Libre Baskerville", serif;
+  /* font-family: "Zilla Slab", serif; */
+  line-height: 1.9rem;
+}
+body {
+  background-color: var(--color-lighter);
+}
+h2 {
+  color: var(--color-white);
+  margin: 1rem 0 0 3rem;
+}
+
+#movies-list {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.movie-item {
+  color: var(--color-dark);
+  padding: 1rem 2.5rem;
+  margin: 1rem;
+  width: 555px;
+  background-color: var(--color-white);
+  border-radius: 5px;
+  box-shadow: -1px 1px 10px 5px rgba(23, 46, 83, 0.37) inset;
+}
+
+.movie-title {
+  text-align: center;
+  line-height: 1.9rem;
+}
+ul.movies-genres {
+  display: flex;
+  flex-wrap: wrap;
+}
+ul.movies-genres li {
+  list-style: none;
+  padding: 0.4rem 0.8rem;
+  margin: 0.2rem;
+  border: 1px solid var(--color-light);
+  border-radius: 50px;
+}
+
+.star::before {
+  font-family: FontAwesome;
+  content: "\f005";
+  padding: 0.3rem;
+  color: var(--color-gold);
+}
+.views {
+  margin: 1rem;
+}
