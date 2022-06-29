@@ -18,9 +18,13 @@ fetch("movies.json")
       let movieItem = document.createElement("div");
       movieItem.classList.add("movie-item");
 
-      let movieTitle = document.createElement("h3");
+      let movieTitle = document.createElement("p");
       movieTitle.textContent = movie.title;
       movieTitle.classList.add("movie-title");
+
+      let imgEl = document.createElement("img");
+      imgEl.src = movie.img;
+      imgEl.classList.add("movie-img");
 
       let movieGenresList = document.createElement("ul");
       movieGenresList.classList.add("movies-genres");
@@ -30,14 +34,18 @@ fetch("movies.json")
         movieGenresList.append(movieGenre);
       });
 
-      let movieRanking = document.createElement("span");
+      let movieRanking = document.createElement("p");
       movieRanking.textContent = movie.review.ranking;
       movieRanking.classList.add("star");
 
-      let movieViews = document.createElement("span");
+      let movieViews = document.createElement("p");
       let count = numberShort(movie.review.count);
       movieViews.textContent = count;
       movieViews.classList.add("views");
+
+      let movieInfoLineEl = document.createElement("div");
+      movieInfoLineEl.classList.add("movie-info-line");
+      movieInfoLineEl.append(movieGenresList, movieRanking, movieViews);
 
       let movieSummary = document.createElement("p");
       movieSummary.textContent = movie.summary;
@@ -52,11 +60,12 @@ fetch("movies.json")
       movieCast.innerHTML = `<strong>Stars:</strong> ${actors}`;
 
       moviesList.append(movieItem);
-      movieItem.append(movieTitle);
-      movieItem.append(movieGenresList);
 
-      movieItem.append(movieRanking);
-      movieItem.append(movieViews);
+      movieItem.append(imgEl);
+      movieItem.append(movieInfoLineEl);
+
+      movieItem.append(movieTitle);
+
       movieItem.append(movieSummary);
       movieItem.append(movieDirector);
       movieItem.append(movieCast);
