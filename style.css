@@ -2,9 +2,8 @@
 
 :root {
   --color-dark: #1562a1;
-  --color-blue: #4682b4;
-  --color-light: #7ea1be;
-  --color-lighter: rgba(23, 46, 83, 0.37);
+  --color-dark-opacity: #143f62d7;
+  --color-lighter: #172e535e;
   --color-gold: #ddc120;
   --color-white: #dde3e8;
 }
@@ -18,10 +17,6 @@
 body {
   background-color: var(--color-lighter);
 }
-h2 {
-  color: var(--color-white);
-  margin: 1rem 0 0 3rem;
-}
 
 #movies-list {
   padding: 1rem;
@@ -33,22 +28,16 @@ h2 {
   color: var(--color-dark);
   padding: 1.4rem;
   margin: 1rem;
-  width: 33rem;
+  width: 23rem;
   background-color: var(--color-white);
   border-radius: 5px;
-  box-shadow: -1px 1px 10px 5px rgba(23, 46, 83, 0.37) inset;
-}
-
-.movie-title {
-  text-align: center;
-  line-height: 1.9rem;
-  margin: 0.8rem 0 1rem;
-  border-top: 1px solid var(--color-lighter);
-  border-bottom: 1px solid var(--color-lighter);
+  box-shadow: -1px 1px 10px 5px var(--color-lighter) inset;
+  object-fit: contain;
+  position: relative;
 }
 .movie-img {
-  width: 25rem;
-  height: 35rem;
+  width: 20rem;
+  height: 30rem;
   object-fit: cover;
   margin: 0 auto;
   display: block;
@@ -58,18 +47,6 @@ h2 {
   align-items: center;
   margin: 0.5rem;
 }
-ul.movies-genres {
-  display: flex;
-  flex-wrap: wrap;
-}
-ul.movies-genres li {
-  list-style: none;
-  padding: 0.4rem 0.8rem;
-  margin: 0.2rem;
-  border: 1px solid var(--color-lighter);
-  border-radius: 50px;
-}
-
 .star::before {
   font-family: FontAwesome;
   content: "\f005";
@@ -77,5 +54,50 @@ ul.movies-genres li {
   color: var(--color-gold);
 }
 .views {
-  margin: 1rem;
+  margin: 0 1rem;
+}
+
+.movie-title {
+  text-align: center;
+  line-height: 1.9rem;
+  margin: 0.8rem 0 1rem;
+  border-top: 1px solid var(--color-lighter);
+  border-bottom: 1px solid var(--color-lighter);
+}
+
+ul.movies-genres {
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0;
+}
+ul.movies-genres li {
+  list-style: none;
+  padding: 0.4rem 0.6rem;
+  margin: 0 0.2rem;
+  border: 1px solid var(--color-white);
+  border-radius: 50px;
+}
+.summary,
+.cast {
+  padding: 1.2rem 0;
+}
+.more-info {
+  position: absolute;
+  top: 1.5rem;
+  color: var(--color-white);
+  background-color: var(--color-dark-opacity);
+  width: 20rem;
+  height: 30rem;
+  left: 1.5rem;
+  padding: 1rem;
+}
+.show {
+  visibility: visible;
+  opacity: 1;
+  transition: opacity 250ms ease-in, visibility 0ms ease-in 250ms;
+}
+.hide {
+  visibility: hidden;
+  opacity: 0;
+  transition: opacity 250ms ease-in, visibility 0ms ease-in 250ms;
 }
